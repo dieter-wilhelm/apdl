@@ -1,0 +1,153 @@
+SOLID5 - 3D Coupled-Field Solid
+LINK11 - Linear Actuator
+PLANE13 - 2D Coupled-FieldSolid
+COMBIN14 - Spring-Damper
+MASS21 - StructuralMass
+PLANE25 - Axisymmetric-Harmonic4-Node Structural Solid
+MATRIX27 - Stiffness, Damping, or Mass Matrix
+FLUID29 - 2D AxisymmetricHarmonic Acoustic Fluid
+FLUID30 -  3D 8-Node Acoustic Fluid
+LINK31 - RadiationLink
+LINK33 - 3D ConductionBar
+LINK34 - ConvectionLink
+PLANE35 - 2D 6-NodeTriangular Thermal Solid
+SOURC36 - Current Source
+COMBIN37 - Control
+FLUID38 - DynamicFluid Coupling
+COMBIN39 - NonlinearSpring
+COMBIN40 - Combination
+INFIN47 - 3D InfiniteBoundary
+MATRIX50 - Superelement(or Substructure)
+PLANE55 - 2D ThermalSolid
+SHELL61 - Axisymmetric-Harmonic Structural Shell
+LINK68 - CoupledThermal-Electric Line
+SOLID70 - 3D ThermalSolid
+MASS71 - ThermalMass
+PLANE75 - Axisymmetric-Harmonic4-Node Thermal Solid
+PLANE77 - 2D 8-NodeThermal Solid
+PLANE78 - Axisymmetric-Harmonic8-Node Thermal Solid
+PLANE83 - Axisymmetric-Harmonic8-Node Structural Solid
+SOLID87 - 3D 10-NodeTetrahedral Thermal Solid
+SOLID90 - 3D 20-NodeThermal Solid
+CIRCU94 - Piezoelectric Circuit
+SOLID96 - 3D MagneticScalar Solid
+SOLID98 - TetrahedralCoupled-Field Solid
+INFIN110 - 2D InfiniteSolid
+INFIN111 - 3D InfiniteSolid
+FLUID116 - CoupledThermal-Fluid Pipe
+PLANE121 - 2D 8-NodeElectrostatic Solid
+SOLID122 - 3D 20-NodeElectrostatic Solid
+SOLID123 - 3D 10-NodeTetrahedral Electrostatic Solid
+CIRCU124 - ElectricCircuit
+CIRCU125 - Diode
+TRANS126 - ElectromechanicalTransducer
+FLUID129 - 2D Infinite Acoustic
+FLUID130 - 3D InfiniteAcoustic
+SHELL131 - 4-NodeThermal Shell
+SHELL132 - 8-NodeThermal Shell
+FLUID136 - 3D SqueezeFilm Fluid Element
+FLUID138 - 3D ViscousFluid Link Element
+FLUID139 - 3D SlideFilm Fluid Element
+SURF151 - 2D ThermalSurface Effect
+SURF152 - 3D ThermalSurface Effect
+SURF153 - 2D StructuralSurface Effect
+SURF154 - 3D StructuralSurface Effect
+SURF155 - 3D Thermal Surface Effect
+SURF156 - 3D Structural Surface Line-Load Effect
+SHELL157 - Thermal-Electric Shell
+SURF159 - GeneralAxisymmetric Surface
+TARGE169 - 2D Target Segment
+TARGE170 - 3D Target Segment
+CONTA172 - 2D 3-NodeSurface-to-Surface Contact 
+CONTA174 - 3D 8-NodeSurface-to-Surface Contact
+CONTA175 - 2D/3DNode-to-Surface Contact
+CONTA177 - 3D Line-to-SurfaceContact
+CONTA178 - 3D Node-to-Node Contact
+PRETS179 - Pretension
+LINK180 - 3D Spar(or Truss)
+SHELL181 - 4-NodeStructural Shell
+PLANE182 - 2D 4-NodeStructural Solid
+PLANE183 - 2D 8-Nodeor 6-Node Structural Solid
+MPC184 - Multipoint Constraint Element
+MPC184-Link/Beam - Multipoint Constraint Element: Rigid Link or Rigid Beam
+MPC184-Slider - MultipointConstraint Element: Slider
+MPC184-Revolute - Multipoint Constraint Element: Revolute Joint
+MPC184-Universal - Multipoint Constraint Element: Universal Joint
+MPC184-Slot - MultipointConstraint Element: Slot Joint
+MPC184-Point - MultipointConstraint Element: Point-in-plane  Joint
+MPC184-Translational - MultipointConstraint Element: Translational  Joint
+MPC184-Cylindrical - MultipointConstraint Element: Cylindrical  Joint
+MPC184-Planar - MultipointConstraint Element: Planar Joint
+MPC184-Weld - MultipointConstraint Element: Weld Joint
+MPC184-Orient - MultipointConstraint Element: Orient Joint
+MPC184-Spherical - Multipoint Constraint Element: Spherical Joint
+MPC184-General - MultipointConstraint Element: General Joint
+MPC184-Screw - MultipointConstraint Element: Screw  Joint
+MPC184-Spotweld - Multipoint Constraint Element: Spotweld Joint
+SOLID185 - 3D 8-NodeStructural Solid
+SOLID186 - 3D 20-NodeStructural Solid
+SOLID187 - 3D 10-NodeTetrahedral Structural Solid
+BEAM188 - 3D 2-Node Beam
+BEAM189 - 3D 3-Node Beam
+SOLSH190 - 3D 8-NodeStructural Solid Shell
+INTER192 - 2D 4-Node Gasket
+INTER193 - 2D 6-NodeGasket
+INTER194 - 3D 16-NodeGasket
+INTER195 - 3D 8-NodeGasket
+MESH200 - MeshingFacet
+FOLLW201 - FollowerLoad
+INTER202 - 2D 4-NodeCohesive
+INTER203 - 2D 6-NodeCohesive
+INTER204 - 3D 16-NodeCohesive
+INTER205 - 3D 8-NodeCohesive
+SHELL208 -  2-NodeAxisymmetric Shell
+SHELL209 -  3-NodeAxisymmetric Shell
+CPT212 - 2D 4-Node Coupled Pore-Pressure-Thermal Mechanical Solid
+CPT213 - 2D 8-Node Coupled Pore-Pressure-Thermal Mechanical   Solid
+COMBI214 - 2D Spring-DamperBearing
+CPT215 - 3D 8-Node Coupled Pore-Pressure-Thermal Mechanical   Solid
+CPT216 - 3D 20-Node Coupled Pore-Pressure-Thermal Mechanical Solid 
+CPT217 - 3D 10-Node Coupled Pore-Pressure-Thermal Mechanical   Solid
+FLUID218 - 3D Hydrodynamic Bearing Element
+FLUID220 -  3D 20-Node Acoustic Fluid
+FLUID221 -  3D 10-Node Acoustic Fluid
+PLANE222 - 2D 4-Node Coupled-Field Solid
+PLANE223 - 2D 8-Node Coupled-Field Solid
+SOLID225 - 3D 8-Node Coupled-Field Solid
+SOLID226 - 3D 20-NodeCoupled-Field Solid
+SOLID227 - 3D 10-NodeCoupled-Field Solid
+LINK228 - 3D Coupled-Field Link
+PLANE230 - 2D 8-NodeElectric Solid
+SOLID231 - 3D 20-NodeElectric Solid
+SOLID232 - 3D 10-NodeTetrahedral Electric Solid
+PLANE233 - 2D 8-NodeElectromagnetic Solid 
+SOLID236 - 3D 20-NodeElectromagnetic Solid
+SOLID237 - 3D 10-NodeElectromagnetic Solid
+PLANE238 - 2D 8-NodeDiffusion Solid
+SOLID239 - 3D 20-NodeDiffusion Solid
+SOLID240 - 3D 10-NodeTetrahedral Diffusion Solid
+HSFLD241 - 2D HydrostaticFluid
+HSFLD242 - 3D HydrostaticFluid
+FLUID243 - 2D 4-Node Acoustic Fluid
+FLUID244 - 2D 8-Node Acoustic Fluid
+COMBI250 - Bushing
+SURF251 - 2D RadiositySurface
+SURF252 - 3D RadiositySurface
+INFIN257 - StructuralInfinite Solid
+REINF263 - 2D Smeared Reinforcing
+REINF264 - 3D Discrete Reinforcing
+REINF265 - 3D Smeared Reinforcing
+SOLID272 - GeneralAxisymmetric Solid with 4 Base Nodes
+SOLID273 - GeneralAxisymmetric Solid with 8 Base Nodes
+SOLID278 - 3D 8-NodeThermal Solid
+SOLID279 - 3D 20-NodeThermal Solid
+CABLE280 - 3D Cable
+SHELL281 - 8-NodeStructural Shell
+SOLID285 - 3D 4-Node Tetrahedral Structural Solid
+PIPE288 - 3D 2-NodePipe
+PIPE289 - 3D 3-NodePipe 
+ELBOW290 - 3D 3-Node Elbow
+SOLID291 - 3D 10-Node Tetrahedral Thermal Solid
+PLANE292 -  2D 4-Node Thermal Solid 
+PLANE293 - 2D 8-Node Thermal Solid
+USER300 - User-DefinedElement

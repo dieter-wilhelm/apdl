@@ -1,0 +1,45 @@
+# Emacs backups
+*~
+#Emacs -auto save files
+\#*\# 
+helper/\#*\#
+helper/.\#*
+nohup.out
+#Emacs lock files
+.\#* 
+TAGS
+*.zip
+*.sig
+*.tgz
+*.pdf
+*.texi
+*.tex
+*.gz
+*.xz
+helper/emacs-24.5
+helper/hide-region+.el
+helper/hide-region.el
+helper/htmlize.el
+helper/apdl-keyword.el
+helper/share
+helper/apdl-mode-*
+matlib/#*#
+matlib/.#*
+gh-page
+alwin/
+*.elc
+X11/xGetClassicsWindow
+X11/xGetFocusWindow
+X11/xPasteToWin
+X11/xSendReturn
+doc/file*
+doc/default*
+helper/tools*
+# gimp files
+*.xcf
+*.tar
+info/README.md
+info/apdl-mode.info
+misc/
+add-directory_to-load-path.el
+./

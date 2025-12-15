@@ -1,0 +1,8 @@
+*DPF - Specifies an input data processing framework (DPF) workflow file or a DPF workflow output pin.
+*DPF, Action, WorkflowId,Val1,Val2,Val3
+*HPROD - Performs a Hadamard vector product (C = A&#8728;B).
+*HPROD, A, B, C
+*INQUIRE - Retrieves properties of an existing APDL Math object.
+*INQUIRE, Obj, Property, Var1
+*KRON - Computes the Kronecker product of two matrices/vectors; 
+*KRON, M1, M2, M3

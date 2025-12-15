@@ -1,0 +1,29 @@
+# Ansys V13: 24 functions, the same as in V12
+# Ansys V15: 25 functions, the same as in V14
+# Ansys V241: 26 
+ABS(x) Absolute value of x.  
+SIGN(x,y) Absolute value of x with sign of y. y=0 results in positive sign.  
+CXABS(x,y) Absolute value of the complex number x + y
+EXP(x) Exponential of x (ex).  
+LOG(x) Natural log of x (ln (x)).  
+LOG10(x) Common log of x (log10(x)).  
+SQRT(x) Square root of x.  
+NINT(x) Nearest integer to x.  
+MOD(x,y) Remainder of x/y. y=0 returns zero (0).  
+RAND(x,y) Random number (uniform distribution) in the range x to y (x = lower bound, y = upper bound).  
+GDIS(x,y) Random sample of a Gaussian (normal) distribution with mean x and standard deviation y.  
+SIN(x) Sine of x. x is in radians by default, but can be changed to degrees with *AFUN.  
+COS(x) Cosine of x. x is in radians by default, but can be changed to degrees with *AFUN.  
+TAN(x) Tangent of x. x is in radians by default, but can be changed to degrees with *AFUN.  
+SINH(x) Hyperbolic sine of x.  
+COSH(x) Hyperbolic cosine of x.  
+TANH(x) Hyperbolic tangent of x.  
+ASIN(x) Arcsine, Arccosine, and Arctangent of x. x must be between -1.0 and +1.0 for ASIN and ACOS. Output is in radians by default, but can be changed to degrees with *AFUN. Range of output is -pi/2 to +pi/2 for ASIN and ATAN, and 0 to pi for ACOS.  
+ACOS(x) Arccosine, and Arctangent of x. x must be between -1.0 and +1.0 for ASIN and ACOS. Output is in radians by default, but can be changed to degrees with *AFUN. Range of output is -pi/2 to +pi/2 for ASIN and ATAN, and 0 to pi for ACOS.  
+ATAN(x) Arctangent of x. x must be between -1.0 and +1.0 for ASIN and ACOS. Output is in radians by default, but can be changed to degrees with *AFUN. Range of output is -pi/2 to +pi/2 for ASIN and ATAN, and 0 to pi for ACOS.  
+ATAN2(y,x) Arctangent of y/x with the sign of each component considered. Output is in radians by default, but can be changed to degrees with *AFUN. Range of output is -pi to +pi.  
+VALCHR(CPARM) Numerical value of CPARM (if CPARM is non-numeric, returns 0.0).  
+CHRVAL(PARM) Character value of numerical parameter PARM. Number of decimal places depends on magnitude.  
+UPCASE(CPARM) Upper case equivalent of CPARM. 
+LWCASE(CPARM) Lower case equivalent of CPARM. 
+LARGEINT(x,y) Forms a 64-bit pointer from low(x) and high (y) 32-bit integers.
