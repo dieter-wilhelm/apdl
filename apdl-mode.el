@@ -3,7 +3,7 @@
 ;; Copyright (C) 2006 - 2025  H. Dieter Wilhelm GPL V3
 
 ;; Author: H. Dieter Wilhelm <dieter@duenenhof-wilhelm.de>
-;; Version: 20.7.0
+;; Version: 24.0.0
 ;; Package-Requires: ((emacs "25.1"))
 ;; Keywords: languages, convenience, tools, Ansys, APDL
 ;; URL: https://github.com/dieter-wilhelm/apdl
@@ -180,10 +180,10 @@ Used for the variable `comment-start-skip'.")
   "Customisation group for the APDL-Mode."
   :version "20.5.0"
   :link '(custom-group-link :tag "Font Lock Faces group" font-lock-faces)
-  :link '(url-link :tag "Online documentation"
-                   "https://dieter-wilhelm.github.io/apdl-mode ")
+  ;; :link '(url-link :tag "Online documentation"
+  ;;                  "https://dieter-wilhelm.github.io/apdl ")
   :link '(url-link :tag "Code on GitHub"
-                   "https://github.com/dieter-wilhelm/apdl-mode")
+                   "https://github.com/dieter-wilhelm/apdl")
   :group 'Languages)
 
 ;; two minutes was too long, 2021-08-12
@@ -871,7 +871,8 @@ If INVISIBLE-OK is non-nil, an invisible heading line is ok too."
 	apdl-font-lock-keywords-2
 	;; testing
 	; apdl-font-lock-keywords-3
-	))
+    )
+  )
 
 (defconst apdl-mode-syntax-table     ; FIXME check APDL operators and
   ;; allowed variable characters
@@ -1706,13 +1707,13 @@ and P-MAX) otherwise align the current code paragraph."
 (defun apdl-mode ()
   "Editor support for the APDL language and working with Ansys MAPDL.
 
-APDL-Mode (formerly Ansys-Mode) - in conjunction with the
-GNU-Emacs editor - is an advanced APDL environment with features
+The APDL package - in conjunction with the GNU-Emacs editor
+- is an advanced APDL environment with features
 like, pin-pointing the APDL reference documentation, keyword
 completion, code templates, dedicated highlighting, solver
-communication (GNU-Linux only), license reporting, etc.  Over the
-years it has accumulated lots of features for writing WorkBench /
-Discovery AIM Command (APDL) objects and debugging complete FEA
+communication (GNU-Linux only), license reporting, etc.
+features for writing WorkBench
+Command snippets (APDL) objects and debugging complete FEA
 models in APDL code.
 
 The extensive documentation can be accessed from the APDL-Mode

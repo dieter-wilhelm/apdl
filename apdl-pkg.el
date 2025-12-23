@@ -1,4 +1,4 @@
-;;; apdl-mode-pkg.el --- Defining the APDL-Mode package -*-lexical-binding:t -*-
+;;; apdl-pkg.el --- Defining the APDL-Mode package -*-lexical-binding:t -*-
 
 ;; Copyright (C) 2006 - 2025 H. Dieter Wilhelm
 
@@ -6,7 +6,7 @@
 ;; Version: 24.0.1
 ;; Package-Requires: ((emacs "25.1"))
 ;; Keywords: languages, convenience, tools, Ansys, APDL
-;; URL: https://github.com/dieter-wilhelm/apdl-mode
+;; URL: https://github.com/dieter-wilhelm/apdl
 
 ;; Maintainer: H. Dieter Wilhelm
 
@@ -30,19 +30,20 @@
 
 ;;; Commentary:
 
-;; APDL-Mode (formerly ANSYS-Mode) represents, in conjunction with
-;; the GNU-Emacs editor, an advanced APDL environment.  Including
-;; features features like immediate documentation access, keyword
-;; completion, code templates, dedicated keybindings, solver
-;; communication (GNU-Linux only), license reporting, etc.
+;; The APDL package represents, in conjunction with the GNU-Emacs
+;; editor, an advanced APDL environment.  Including features features
+;; like immediate documentation access, keyword completion, code
+;; templates, dedicated keybindings, solver communication (GNU-Linux
+;; only), license reporting, etc.
 
 ;; ------------------------------
 ;; First usage:
 
-;; Open an APDL-Mode buffer with `M-x apdl'.  From there you might
-;; investigate the menu entries `APDL' and `Ansys'.
+;; Open an Emacs window (aka buffer) under APDL mode with the command
+;; `M-x apdl'.  From there you should investigate the menu entries
+;; `APDL' and `MAPDL'.
 
-;; For the APDL-Mode help with a brief tutorial and further guidance
+;; For the APDL-Mode help (with a brief tutorial and further guidance)
 ;; please type `C-h m' or type `C-h i' to read its documentation with
 ;; the Info reader."
 
@@ -50,7 +51,8 @@
 
 ;; (require 'package)
 
-(define-package "apdl-mode" "24.0.1" "Major mode for the APDL programming language."
+(define-package "apdl" "24.0.0"
+  "Major mode for the APDL programming language."
   '((emacs "25.1"))
   :keywords
   '("APDL" "Ansys" "languages" "FEA" "convenience" "tools")
@@ -60,9 +62,9 @@
   '("H. Dieter Wilhelm" . "dieter@duenenhof-wilhelm.de")
   :url "https://github.com/dieter-wilhelm/apdl-mode2")
 
-;; (provide 'apdl-mode-pkg)
+;; (provide 'apdl-pkg)
 
-;;; apdl-mode-pkg.el ends here
+;;; apdl-pkg.el ends here
 
 ;; Local Variables:
 ;; indicate-empty-lines: t
