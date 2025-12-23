@@ -2,6 +2,7 @@ APDL package to do list
 * Priorities
 1) Check Github source package with package-install-from-file/buffer
    - apdl-24.0.1.tar.gz
+   - It seems that package.el is reading the apdl-readme.txt?!
 2) How to place release comments (currently only git logs, NEWS.org?)
 3) Texinfo
    - .info binary in repo?
@@ -13,11 +14,22 @@ APDL package to do list
 * Work
 - Gnu coding standards https://www.gnu.org/prep/standards/
 - Makefile conventions? (Magit example)
-- TAGS for emacs replace version strings
--
+- TAGS for emacs replacing version strings
+- Elisp checks: https://drewsh.com/emacs-package-github-workflow
+
+* Texinfo
+We do not need a directory file "dir", we have to place the
+apdl.info/apdl.texi (see Melpa build scripts) file in the apdl content
+folder.
+
+* Melpa
+- Melpa is supposed to build info files from .texi files?
+** recipie
+melpa/apdl
 
 * Release proceedures
-- tagging with annotation e.g. "Release v25.0.0" creates a release
+- tagging e.g. "v25.0.0" creates a release
+- lightweight tag or with annotation?
 
 
 

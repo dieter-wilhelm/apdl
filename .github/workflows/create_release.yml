@@ -50,17 +50,28 @@ jobs:
           echo "$NOTES" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
 
+      - name: Read release notes file
+        id: read_notes
+        run: |
+          echo "body<<EOF" >> $GITHUB_OUTPUT
+          cat RELEASE_NOTES.org >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
       - name: Create GitHub Release
         id: create_release
         uses: actions/create-release@v1
         with:
           tag_name: ${{ steps.gen_notes.outputs.tag }}
           release_name: Release ${{ steps.gen_notes.outputs.tag }}
-          body: ${{ steps.gen_notes.outputs.notes }}
+          body: |
+            ${{ steps.read_notes.outputs.body }}
+
+            ${{ steps.gen_notes.outputs.notes }}
           draft: false
           prerelease: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
           # ##############################
           # github builds zip and tar source archives by default

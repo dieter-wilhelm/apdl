@@ -4,24 +4,20 @@ APDL (Ansys Parametric Design Language) is the solver scripting
 language of the FEA (Finite Element Analysis) suite Ansys (ANalysis
 SYStem, registered TM https://www.ansys.com).
 
-APDL-Mode (formerly ANSYS-Mode) represents, in conjunction with the
-GNU-Emacs editor, an advanced APDL environment with features like
+The APDL package (formerly APDL-Mode) represents, in conjunction with
+the GNU-Emacs editor, an advanced APDL environment with features like
 keyword completion, code templates, solver communication (GNU-Linux
 only), license reporting, dedicated keybindings, etc.
-
-Nowadays - with the advent of modern GUIs - I find APDL-Mode also
-useful for studying solver (.dat) files which were created by
-WorkBench.  Likewise for writing WorkBench `Command' snippets and
-inspecting longer snippets from other sources.  Accessing swiftly the
-Ansys APDL reference documentation alone is worth using APDL-Mode!
 
 ------------------------------
 First usage:
 
-Please type `M-x apdl' to open a buffer under APDL-Mode.  From this
-buffer you can investigate the menu entries `APDL' and `Ansys' and
-testing some APDL code.
+Please type `M-x apdl' to open an Emacs window (aka. buffer) under
+APDL-Mode.  From this buffer you can investigate the menu entries
+`APDL' and `MAPDL' and trying some APDL code.  E.g. typing `aplot' and
+the shortcut `C-c C-b' Emacs is immediately opening its Ansys MAPDL
+documentation in a Browser!
 
-The APDL-Mode help you'll find with typing `C-c C-h' together with a
-brief tutorial.
+Further help you will will find with typing `C-c C-h' including an
+introductory tutorial.
 
