@@ -24,11 +24,13 @@
 #+INFOJS_OPT:
 #+LATEX_HEADER:
 
-#+title: APDL-Mode
+#+title: The APDL package
 The GNU-Emacs major mode for the programming language APDL
 # It is best read in Emacs's Org mode.
 
 Copyright (C) 2006 - 2025  H. Dieter Wilhelm, GPL V3
+#+caption: Ansys and Emacs icon
+#+attr_html: :width 50
 [[file:assets/ansys+emacs.png]]
 
 * Introduction
