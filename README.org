@@ -87,7 +87,7 @@ Copyright (C) 2006 - 2025  H. Dieter Wilhelm, GPL V3
 * Requirements and installation
 #  - APDL-Mode is now available on MELPA
 #  For further installation options
-Please have a look in the [[file:INSTALLATION.org][INSTALLATION]] file.
+Please have a look in the [[file:INSTALLATION.org][INSTALLATION.org]] file.
 * Usage
   # TODO: info? Please read the introductory tutorial first. -TODO-
 
@@ -100,41 +100,20 @@ Please have a look in the [[file:INSTALLATION.org][INSTALLATION]] file.
   # <h> key and subsequently the <m> key), which will display the
   # apdl-mode help which is your `real-time' guide for its usage, and
   # key-bindings.
-
+** Tutorial
 * COMMENT Customisation
   apdl-mode provides its own customisation file
   ~ansys-config.el~. -TODO:-
 * News
-Please have a look in the [[file:NEWS.org][NEWS]] file.
-* License and Acknowledgements
-  - [[file:LICENSE][GPL 3]]
-  - Acknowledgements to Tim Read and Geoff Foster for their
-    ansys-mod.el (from 1997) which triggered the idea in 2006 to start
-    APDL-mode.
+Please have a look in the [[file:NEWS.org][NEWS.org]] file.
+* Acknowledgements
+Please have look in the [[file:documentation/acknowledgements.org][acknowledgements.org]] file.
+* License
+Please have a look in the [[file:LICENSE][LICENSE]] file.
 * Further Resources
-** Ansys and APDL resources
-   - The public [[https://ansyshelp.ansys.com/public][Ansys Help Center]]
-   - The public [[https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v252/en/ans_apdl/Hlp_P_APDLTOC.html][APDL guide]]
-   - [[http://www.xansys.org][Xansys]], an online community forum (registration necessary)
-#   - A general  Ansys repository [[http://www.ansys.net][Ansys.net]], down, checked 2025-12
-   - The [[http://www.ansys.com][Ansys homepage]], see online courses in the "Ansys Learning Hub"
-#   - [[http://www.auc-ev.de/][AUC]], the Ansys User Club in Germany # down, checked 2025-12
+Please have a look in the [[file:documentation/resources.org][resources.org]] file.
 
-# The following is for Emacs
-** COMMENT APDL-Mode
-   - The complete [[http://dieter-wilhelm.github.io/ansys-mode][documentation of apdl-mode]] is available online
-   - The [[http://www.emacswiki.org/emacs/AnsysMode][Wiki page of apdl-mode]]
-   - The [[https://github.com/dieter-wilhelm/ansys-mode][GitHub page of apdl-mode]]
-** APDL editor resources
-#   - [[http://emacs.stackexchange.com][Stackexchange]], the question and answer site.
-#   - The [[http://www.emacswiki.org][EmacsWiki]], an encyclopedia for Emacs
-   - A free Windows [[http://apdl.de][APDL editor]], site not maintained since 2010
-   - A commercial competitor of apdl-mode: The [[http://www.padtinc.com/pedal][Pedal]] script editor,
-     project disbandened in 2015
-   - Simple APDL syntax highlighting addons are available for various
-     editors, gvim, nedit, etc.
-     # just to name a few, please have a look
-     # at [[http://ansys.net][Ansys.net]]
+
 -----
 
 
